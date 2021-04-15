@@ -258,3 +258,5 @@ Example body:
 
 ![activity_diagram](https://user-images.githubusercontent.com/43434679/114885705-9798be80-9e0f-11eb-8ea0-a356bfbcb4e2.png)
 
+## Use case diagram
+![asap](https://user-images.githubusercontent.com/43434679/114902022-185eb700-9e1e-11eb-8e76-f919efc49bae.png)
