@@ -245,3 +245,6 @@ Example body:
    }
 ]
 ```
+
+## Functional and logical structure of the project
+![asd](https://user-images.githubusercontent.com/43434679/114840338-62747800-9ddf-11eb-913e-d9ecab100bf5.png)
