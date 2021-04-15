@@ -248,3 +248,6 @@ Example body:
 
 ## Functional and logical structure of the project
 ![asd](https://user-images.githubusercontent.com/43434679/114840338-62747800-9ddf-11eb-913e-d9ecab100bf5.png)
+
+## Sequence diagram of interaction with the application
+![sequence_diagram](https://user-images.githubusercontent.com/43434679/114885251-23f6b180-9e0f-11eb-9d7b-0db7749891ec.png)
