@@ -233,7 +233,7 @@ const initialData = {
       progress: 0,
       url: 0,
     },
-  ],,
+  ],
 };
 
 const HomeScreen = ({route, navigation}) => {
@@ -268,7 +268,7 @@ const HomeScreen = ({route, navigation}) => {
         <Text style={styles.description}>{item.description}</Text>
       </View>
       <View style={styles.itemIcon}>
-        <MaterialIconsname="navigate-next" color="#ffa64d" size={30} />
+        <MaterialIcons name="navigate-next" color="#ffa64d" size={30} />
       </View>
     </TouchableOpacity>
   );
@@ -317,7 +317,7 @@ const HomeScreen = ({route, navigation}) => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar backgroundColor="#20293d" barStyle="light-content"/>
+      <StatusBar backgroundColor="#20293d" barStyle="light-content" />
       {isLoading ? (
         <ActivityIndicator
           size="large"
@@ -355,14 +355,13 @@ const HomeScreen = ({route, navigation}) => {
           keyExtractor={(item) => item.id.toString()}
           extraData={selectedId}
           style={styles.listContainer}
-          ListFooterComponent={() => (
-            <View style={styles.overlayBackground}></View>
-          )}
+          ListFooterComponent={() => <View style={styles.overlayBackground} />}
         />
       )}
       <LinearGradient
         colors={['#00000000', '#00000030', '#00000060']}
-        style={styles.overlayShadow} />
+        style={styles.overlayShadow}
+      />
     </SafeAreaView>
   );
 };
@@ -449,7 +448,7 @@ const styles = StyleSheet.create({
   },
   description: {
     fontSize: 16,
-    color: '#D8E3E6',,
+    color: '#D8E3E6',
   },
   overlayBackground: {
     width: width,
